@@ -1,0 +1,57 @@
+.next-page .task-group {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.next-page .task-group .tasks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 2px;
+}
+
+.next-page .task-group .tasks .content-box {
+    display: flex;
+}
+
+.next-page .task-group .tasks .content-box .content {
+    width: 90.29px;
+    height: 72.84px;
+    top: 295.6px;
+    left: 155.48px;
+    gap: 0px;
+    opacity: 0px;
+    background: #539BBB;
+    color: white;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.next-page .task-group .tasks .content-box .polygon {
+    clip-path: polygon(0 0, 50% 50%, 0 100%);
+    background: #539BBB;
+    width: 80.29px;
+    height: 72.84px;
+    margin-left: -1px;
+}
+
+.next-page .task-group .tasks .arrowIcon img {
+    margin-left: -35px;
+}
+
+.next-page .task-group .tasks .status {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.next-page .task-group .tasks .isPending {
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+}

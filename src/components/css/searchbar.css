@@ -1,0 +1,42 @@
+.search_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.searchBar {
+  width: 407.95px;
+  height: 34.67px;
+  display: flex;
+  position: relative;
+  margin: 40px;
+  border-radius: 3px;
+  border: 0.62px solid #79747E
+}
+
+.searchBar p {
+  position: absolute;
+  top: -7px;
+  left: 10px;
+  padding: 0 7px;
+
+}
+
+.searchBar input {
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  background-color: #FEF7FF;
+  width: 100%;
+  padding: 0 30px;
+}
+
+.searchBar img {
+  position: absolute;
+}
+
+.searchBar .cancelIcon {
+  right: 0px;
+}

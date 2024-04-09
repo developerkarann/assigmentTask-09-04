@@ -1,0 +1,174 @@
+.home {
+    display: flex;
+    height: 832.27px;
+    width: 100%;
+    gap: 27.56px;
+}
+
+.home .left {
+    width: 620.27px;
+    height: 833px;
+    padding: 0 40px;
+}
+
+.search_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.home .left .searchBar {
+    width: 407.95px;
+    height: 34.67px;
+    display: flex;
+    position: relative;
+    margin: 40px;
+    border-radius: 3px;
+    border: 0.62px solid #79747E
+}
+
+.home .left .searchBar p {
+    position: absolute;
+    top: -7px;
+    left: 10px;
+    padding: 0 7px;
+
+}
+
+.home .left .searchBar input {
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    background-color: #FEF7FF;
+    width: 100%;
+    padding: 0 30px;
+}
+
+.home .left .searchBar img {
+    position: absolute;
+}
+
+
+.home .left .searchBar .cancelIcon {
+    right: 0px;
+}
+
+.home .text_container .heading h1 {
+    font-size: 23.11px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    padding: 10px 0;
+}
+
+.home .text_container .subHeading p {
+    font-size: 15.69px;
+    font-weight: 300;
+    line-height: 26.15px;
+    text-align: left;
+    color: #494C55;
+}
+
+
+.home .card {
+    display: flex;
+    flex-direction: column;
+    height: 347px;
+    align-items: center;
+    background-color: white;
+    margin-top: 28px;
+    border-radius: 20px;
+    gap: 40px;
+    justify-content: center;
+    padding: 80px;
+    box-shadow: 0px 0px 15.1px -3px #00000040;
+}
+
+.home .card button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    background: #539BBB;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.home .card .text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.home .card .btn button {
+    background: #2F667F;
+}
+
+.home .card .pagination {
+    display: flex;
+}
+
+.home .card .dot {
+    width: 7px;
+    height: 7px;
+    background: #616161;
+    border-radius: 50%;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.active {
+    background: #539BBB !important;
+}
+
+
+.home .right {
+    width: 391px;
+    background-color: white;
+    box-shadow: 0px 3.56px 3.56px 0px #00000040;
+    height: 853px;
+    gap: 24.89px;
+    display: flex;
+    flex-direction: column;
+}
+
+.home .right .top-icons {
+    margin: 30px 0;
+    align-self: flex-end;
+}
+
+.home .right .top-icons img {
+    cursor: pointer;
+}
+
+.home .right .text-container {
+    padding: 0 28px;
+}
+
+.home .right .text-container .heading {
+    font-size: 23.11px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    padding: 10px 0;
+}
+
+.home .right .text-container .subHeading {
+    font-size: 15.69px;
+    font-weight: 300;
+    line-height: 26.15px;
+    text-align: left;
+    color: #494C55;
+}
+.home .right .video-container {
+    padding: 0 28px;
+}
+.home .right .video-container video{
+    width: 100%;
+}
